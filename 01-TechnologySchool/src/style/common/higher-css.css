@@ -1,0 +1,26 @@
+/* Borders*/
+.borderRadiusReset{
+    border-radius: 0;
+}
+
+.borderRadiusTop10{
+    border-radius: 10px 10px 0 0;
+}
+
+.borderRadius10{
+    border-radius: 10px;
+}
+
+/* Background colers*/
+.wheat{
+    background-color: wheat;
+}
+
+.aliceblue{
+    background-color: aliceblue;
+}
+
+/* margins*/
+.marginTop2px{
+    margin-top: 2px;
+}
