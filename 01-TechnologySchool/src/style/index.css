@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+}
+
+#mainNavBarContainer {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+#mainNavBarListWrapper {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mainNavBarList {
+    display: inline-block;
+    margin: 5px;
+    background-color: darkcyan;
+    padding: 10px;
+    width: 15%;
+    border-radius: 15px;
+}
+
+#header {
+    height: 400PX;
+    max-width: 100%;
+    background-color: blue;
+    background-image: url("../assets/img/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headerDetailsContainer {
+    text-align: center;
+    max-width: 50%;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    top: 40%;
+}
+
+#headerDetailsContainer h1 {
+    color: azure;
+}
+
+#headerDetailsContainer button {
+    margin-top: 20px;
+    font-size: x-large;
+    background-color: wheat;
+    width: 20%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#headerDetailsContainer button:hover {
+    background-color: whitesmoke;
+    border: 2px solid darkgrey;
+    box-shadow: 10px;
+}
+
+#main {
+    margin: auto;
+    margin-top: 20px;
+}
+
+#welcomeSection {
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: darkslategrey;
+}
+
+#welcomeContainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#welcomeDescriptionContainer {
+    float: left;
+    width: 45%;
+    height: 300px;
+    padding-left: 20px;
+}
+
+#welcomeDescriptionContainer h2 {
+    margin-bottom: 10px;
+    color: wheat;
+}
+
+#welcomeDescriptionContainer p {
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#welcomeImageContainer {
+    float: right;
+    width: 50%;
+    height: 300px;
+}
+
+#welcomeImage {
+    height: inherit;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+}
