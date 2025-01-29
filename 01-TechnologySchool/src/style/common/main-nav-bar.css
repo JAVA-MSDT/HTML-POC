@@ -1,20 +1,42 @@
 #mainNavBarContainer {
-    background-color: darkolivegreen;
-    color: whitesmoke;
-    text-align: center;
-    padding: 10px;
+  background-color: #333;
+  color: whitesmoke;
+  text-align: center;
+  overflow: hidden;
 }
 
 #mainNavBarListWrapper {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 .mainNavBarList {
-    display: inline-block;
-    margin: 5px;
-    background-color: darkcyan;
-    padding: 10px;
-    width: 15%;
-    border-radius: 15px;
+  float: left;
+}
+
+.mainNavBarList a {
+  display: block;
+  padding: 20px 30px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.mainNavBarList a:hover {
+  background-color: #111;
+}
+
+#mainNavBarListWrapper ul {
+  list-style-type: none;
+  float: right;
+}
+
+#mainNavBarListWrapper ul a {
+  background-color: darkolivegreen;
+}
+
+#mainNavBarListWrapper ul a:hover {
+  background-color: #111;
 }
