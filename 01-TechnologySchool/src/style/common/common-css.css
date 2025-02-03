@@ -24,3 +24,15 @@
 .marginTop2px{
     margin-top: 2px;
 }
+
+.col-25 {
+    width: 24%;
+}
+
+.border-1-black {
+    border: 1px solid black;
+}
+
+.float-left {
+    float: left;
+}
